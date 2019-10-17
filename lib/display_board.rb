@@ -55,5 +55,5 @@ def display_board
   puts "#{cell_x}#{separator}#{cell_x}#{separator}#{cell_x}"
   puts "#{lines}"
   puts "#{cell_x}#{separator}#{cell_x}#{separator}#{cell_x}"
-  
+
 end
