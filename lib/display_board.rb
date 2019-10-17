@@ -7,6 +7,25 @@ def display_board
   separator = "|"
   lines = "-----------"
 
+  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
+  puts "#{lines}"
+  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
+  puts "#{lines}"
+  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
+
+
+  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
+  puts "#{lines}"
+  puts "#{cell}#{separator}#{cell_x}#{separator}#{cell}"
+  puts "#{lines}"
+  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
+
+  puts "#{cell_o}#{separator}#{cell}#{separator}#{cell}"
+  puts "#{lines}"
+  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
+  puts "#{lines}"
+  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
+
   puts "#{cell_x}#{separator}#{cell_x}#{separator}#{cell_x}"
   puts "#{lines}"
   puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
@@ -15,19 +34,26 @@ def display_board
 
   puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
   puts "#{lines}"
-  puts "#{cell}#{separator}#{cell_x}#{separator}#{cell}"
-  puts "#{lines}"
   puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
+  puts "#{lines}"
+  puts "#{cell_x}#{separator}#{cell_x}#{separator}#{cell_x}"
 
-  puts "#{cell_o}#{separator}#{cell}#{separator}#{cell}"
-  puts "#{lines}"
-  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
-  puts "#{lines}"
-  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
-
-  puts "#{cell_o}#{separator}#{cell}#{separator}#{cell}"
+  puts "#{cell_x}#{separator}#{cell}#{separator}#{cell}"
   puts "#{lines}"
   puts "#{cell}#{separator}#{cell_x}#{separator}#{cell}"
   puts "#{lines}"
-  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
+  puts "#{cell}#{separator}#{cell}#{separator}#{cell_x}"
+
+  puts "#{cell}#{separator}#{cell}#{separator}#{cell_o}"
+  puts "#{lines}"
+  puts "#{cell}#{separator}#{cell_o}#{separator}#{cell}"
+  puts "#{lines}"
+  puts "#{cell_o}#{separator}#{cell}#{separator}#{cell}"
+
+  puts "#{cell_x}#{separator}#{cell_x}#{separator}#{cell_x}"
+  puts "#{lines}"
+  puts "#{cell_x}#{separator}#{cell_x}#{separator}#{cell_x}"
+  puts "#{lines}"
+  puts "#{cell_x}#{separator}#{cell_x}#{separator}#{cell_x}"
+  
 end
